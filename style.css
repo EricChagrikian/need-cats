@@ -4,10 +4,20 @@ img {
     width: 100%;
 }
 
-@media screen and (max-width: 400px) {
-   img { max-width: 47vw;
+@media screen and (max-width: 638px) {
+   img { max-width: 48vw;
    }
 }
+
+@media screen and (max-width: 400px) {
+    img { max-width: 47.5vw;
+    }
+ }
+
+ @media screen and (max-width: 320px) {
+    img { max-width: 46vw;
+    }
+ }
 
 section {
     display:block;
