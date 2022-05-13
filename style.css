@@ -1,0 +1,25 @@
+img {
+    max-width: 32.5vw;
+    max-height: 500px;
+    width: 100%;
+}
+
+@media screen and (max-width: 400px) {
+   img { max-width: 47vw;
+   }
+}
+
+section {
+    display:block;
+    flex-wrap: wrap;
+}
+
+button {
+    position: fixed;
+    padding: 3vw;
+    font-size: 20px;
+}
+
+html {
+    background-color: rgb(37, 37, 37);
+}
