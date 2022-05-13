@@ -4,12 +4,12 @@ img {
     width: 100%;
 }
 
-@media screen and (max-width: 638px) {
+@media screen and (max-width: 638px) and (min-width: 400px) {
    img { max-width: 48vw;
    }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 400px) and (min-width: 320px) {
     img { max-width: 47.5vw;
     }
  }
